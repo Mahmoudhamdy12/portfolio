@@ -17,7 +17,7 @@ const Footer = () => {
                 </div>
                 <div className='copy'>
                     <RiCopyrightLine/>
-                    <span>Copyright 2022. Made by Mahmoud Hamdy</span>
+                    <span>Copyright 2022. Made by <a href='https://mahmoudhamdy-portfolio.netlify.app/'>Mahmoud Hamdy</a></span>
                 </div>
     </div>
   )
