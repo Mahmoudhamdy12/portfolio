@@ -1,0 +1,74 @@
+@media screen and (max-width: 991px) {
+    .navbar-btn {
+        display: flex;
+        }
+    .navbar .nav {
+        display: none;
+    }
+    .navbar .nav {
+        position: absolute;
+        overflow: hidden;
+        height: fit-content;
+        display: grid;
+        width: 100%;
+        top: 89px;
+        left: 0;
+        padding: 0px 20px;
+        box-shadow: var(--shadow-btn);
+        background-color: white;
+        z-index: 10;
+}
+    .nav .nav-link {
+        padding: 15px 0px;
+        border-bottom: 1px solid  rgb(250 153 15);
+    }
+    .nav .nav-link:hover {
+        padding-left: 30px;
+        color: var(--color-1)
+    }
+    .show {
+        height: 0 !important;
+    }
+}
+@media screen and (min-width: 992px) {
+    .navbar-btn {
+        display: none;
+    }
+    .navbar .nav {
+        justify-content: space-evenly;
+        display: flex;
+        width: 50%;
+    }
+    .nav .nav-link:hover {
+        color: var(--color-1);
+        border-bottom: 1px solid;
+    }
+}
+.navbar {
+    box-shadow: var(--shadow-form);
+}
+.logo svg {
+    color: var(--color-1);
+    font-size: 45px;
+    
+}
+.navbar .container {
+    position: relative;
+}
+.navbar-btn {
+    cursor: pointer;
+    color: var(--color-1);
+    font-size: 50px;
+}
+.nav .nav-link {
+    font-size: var(--font-size-2);
+    font-weight: bold;
+    color: black;
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+}
+
+

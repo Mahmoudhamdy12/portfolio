@@ -1,0 +1,23 @@
+.section {
+    padding: 30px;
+}
+.section p:first-child {
+    color: var(--color-1);
+    font-family: 'Acme', sans-serif;
+}
+.section p:first-child::before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    width: 4px;
+    height: 100%;
+    background-color: var(--color-1);
+}
+.section p:first-child::after {
+    content: '';
+    position: absolute;
+    right: 0px;
+    width: 4px;
+    height: 100%;
+    background-color: var(--color-1);
+}

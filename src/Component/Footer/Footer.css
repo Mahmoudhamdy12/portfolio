@@ -1,0 +1,20 @@
+.footer {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(225deg, rgb(245 250 15 / 42%) 0%, rgb(213 250 15) 0%, rgb(250 153 15) 100%);
+    gap: 10px;
+    padding: 40px 0;
+    margin-top: 100px;
+}
+.footer .social {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer .text .name {
+    color: white;
+    font-family: 'Acme', sans-serif;
+    letter-spacing: 3px;
+}

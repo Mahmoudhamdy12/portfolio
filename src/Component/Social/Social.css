@@ -1,0 +1,38 @@
+.main {
+    position: fixed;
+    left: -2px;
+    top: 50%;
+    transform: translateY(-56%);
+    display: grid;
+    gap: 20px;
+    z-index: 11;
+}
+.social svg {
+    font-size: 45px;
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+}
+.social svg:hover {
+    background-color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.social .linkedin {
+    color: #0a66c2;
+}
+.social .github {
+    color: black;
+}
+.social .facebook {
+    color: #3b5998;
+}
+.social .whatsapp {
+    color: #25d366;
+    font-size: 40px !important;
+}
